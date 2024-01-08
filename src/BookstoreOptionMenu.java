@@ -4,8 +4,15 @@ public class BookstoreOptionMenu extends BookstoreService{
     Scanner userBookInput = new Scanner(System.in);
 
     public void getLogin(){
+        System.out.println("Welcome to Alpha Bookstore! \n");
+        System.out.println("Please enter you user ID & 5 digit pin \n");
+        System.out.println("ID: ");
+        Scanner userInput = new Scanner(System.in);
 
+        int userID = userInput.nextInt();
 
+        System.out.println("Pin: ");
+        int userPin = userInput.nextInt();
     }
 
     public void getUserBookSearch(){
